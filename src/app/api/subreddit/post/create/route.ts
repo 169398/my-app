@@ -43,7 +43,7 @@ export async function POST(req: Request) {
     }
 
     return new Response(
-      'Could not post to subreddit at this time. Please try later',
+      'Could not post to crow at this time. Please try later',
       { status: 500 }
     )
   }
