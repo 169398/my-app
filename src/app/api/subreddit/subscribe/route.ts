@@ -23,7 +23,7 @@ export async function POST(req: Request) {
     })
 
     if (subscriptionExists) {
-      return new Response("You've already subscribed to this subreddit", {
+      return new Response("You've already subscribed to this post", {
         status: 400,
       })
     }
@@ -44,7 +44,7 @@ export async function POST(req: Request) {
     }
 
     return new Response(
-      'Could not subscribe to subreddit at this time. Please try later',
+      'Could not subscribe to crow at this time. Please try later',
       { status: 500 }
     )
   }
