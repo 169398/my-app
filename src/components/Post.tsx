@@ -54,7 +54,7 @@ const Post: FC<PostProps> = ({
             <span>Posted by {post.author.username}</span>{' '}
             {formatTimeToNow(new Date(post.createdAt))}
           </div>
-          <a href={`/r/${subredditName}/post/${post.id}`}>
+          <a href={`//${subredditName}/post/${post.id}`}>
             <h1 className='text-lg font-semibold py-2 leading-6 text-gray-900'>
               {post.title}
             </h1>
