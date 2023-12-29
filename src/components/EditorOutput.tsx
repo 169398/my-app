@@ -1,3 +1,6 @@
+
+'use client'
+
 import React, { FC, Suspense } from "react";
 import CustomCodeRenderer from "@/components/renderers/CustomCodeRenderer";
 import CustomImageRenderer from "@/components/renderers/CustomImageRenderer";
