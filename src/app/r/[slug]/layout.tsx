@@ -10,7 +10,7 @@ import { notFound } from 'next/navigation'
 import { ReactNode } from 'react'
 
 export const metadata: Metadata = {
-  title: Crow',
+  title: 'Crow',
   description: 'crow social app',
 }
 
