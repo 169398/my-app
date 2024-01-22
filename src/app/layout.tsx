@@ -9,7 +9,7 @@ import '@/styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Crow',
+  title: 'StrathConnect',
 }
 
 export default function RootLayout({
