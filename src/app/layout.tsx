@@ -9,7 +9,7 @@ import '@/styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'StrathConnect',
+  title: 'ABSA CONNECT',
 }
 
 export default function RootLayout({
