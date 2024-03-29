@@ -4,7 +4,6 @@ import { Inter } from 'next/font/google'
 import Providers from '@/components/Providers'
 import { Toaster } from '@/components/ui/Toaster'
 import { Analytics } from "@vercel/analytics/react"
-import Head from 'next/head';
 
 
 import '@/styles/globals.css'
@@ -30,9 +29,9 @@ export default function RootLayout({
         'bg-white text-slate-900 antialiased light',
         inter.className
       )}>
-         <Head>
+         <head>
       <Analytics />
-    </Head>
+    </head>
       <body className='min-h-screen pt-12 bg-slate-50 antialiased'>
         <Providers>
           {/* @ts-expect-error Server Component */}
